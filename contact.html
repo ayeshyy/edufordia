@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>University Website Design - Easy Tutorials</title>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/a491996854.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!--- First page --->
+
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="images/logo.png" alt="" /></a>
+        <div class="nav-links" id="links">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="course.html">COURSE</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>Contact Us</h1>
+    </section>
+    <!--- contact us ---->
+    <section class="location">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d188820.04330542393!2d-71.1103699397183!3d42.31451859205784!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e3652d0d3d311b%3A0x787cbf240162e8a0!2sBoston%2C%20MA%2C%20USA!5e0!3m2!1sen!2s!4v1635931447577!5m2!1sen!2s"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+      ></iframe>
+    </section>
+    <section class="contact-us">
+      <div class="row">
+        <div class="contact-col">
+          <div>
+            <i class="fa fa-home"></i>
+            <span>
+              <h5>XYZ-Road, Building#5</h5>
+              <p>Massachusetts, Boston</p>
+            </span>
+          </div>
+          <div>
+            <i class="fa fa-phone"></i>
+            <span>
+              <h5>+10 6789302-899</h5>
+              <p>Monday-Friday, 8AM to 5PM</p>
+            </span>
+          </div>
+          <div>
+            <i class="fa fa-envelope-o"></i>
+            <span>
+              <h5>infographic99@outlook.com</h5>
+              <p>Massachusetts, Boston</p>
+            </span>
+          </div>
+        </div>
+        <div class="contact-col">
+          <form>
+            <input type="text" id="name" placeholder="Enter Name" required />
+            <input type="e-mail" id="email" placeholder="Enter E-mail" required />
+            <input type="text" id="subject" placeholder="Enter Subject" required />
+            <textarea
+              rows="8"
+              id="message"
+              placeholder="your message here"
+              required
+            ></textarea>
+            <button type="submit" id="messageBtn" class="hero-btn red-btn">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!------ Footer -->
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam eos omnis
+        autem magnam nostrum deserunt.
+      </p>
+      <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+      </div>
+      <p id="copyright"></p>
+    </section>
+
+    <!--- JavaScript  -->
+    <script src="scripts/script.js"></script>
+  </body>
+</html>
